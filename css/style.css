@@ -1,0 +1,171 @@
+/*common css start*/
+
+body{
+	font-family: PT Sans`, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #010101;
+}
+/*common css end*/
+/**header start**/
+header{
+	background-color: #fcdb00;
+	padding: 20px 0;
+
+}
+.logo{
+
+}
+.menu ul li a{
+	font-size: 22px;
+	font-weight: 700;
+	color: #010101 !important;
+	padding: 0 40px !important;
+	
+}
+.menu ul li:last-chaild a{
+	padding-right: 0 !important;
+}
+.menu ul li a:hover{
+	color: white !important;
+}
+
+/** header end**/
+/** slider start**/
+.slider{
+	padding-bottom: 20px;
+
+	background-color: #fcdb00;
+}
+.cid{
+	bottom:-20px;
+}
+.cid [data-bs-target] {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #190707;
+
+}
+.cid .active{
+	background-color: white;
+}
+.s_content{
+	margin-top: 70px;
+}
+.s_content h1{
+	font-size: 32px;
+	font-weight: 700;
+
+}
+.s_content h2{
+	margin: 16px 0;
+	font-size: 20px;
+	font-weight: 400;
+	color: #313841;
+	letter-spacing: 1px;
+}
+.s_content p{
+	margin-bottom: 35px;
+	color: #555555;
+
+}
+.iconul{
+
+}
+.iconul li{
+	margin-right: 30px !important;
+
+}
+.iconul li i{
+	font-size: 40px;
+	transition: .3s;
+
+}
+.iconul li i:hover {
+	transform: scale(.8);
+}
+.s_img{
+	margin-bottom: 50px !important;
+}
+/** slider end**/
+ /**features start**/
+ .features{
+ 	padding-top: 70px;
+ 	padding-bottom: 120px;
+
+ }
+ .c_title{}
+ .c_h1{
+ 	font-size: 32px;
+ 	font-weight: 700;
+ }
+ .c_p{
+ 	font-size: 20px;
+ 	color: #313841;
+ }
+ .single{
+ 	margin-top: 65px;
+ }
+ .f_icon{
+
+ }
+ .f_icon i{
+ 	font-size: 50px;
+ }
+ .f_text{}
+ .f_text h2{
+ 	font-size: 22px;
+ 	font-weight: 400;
+ 	margin-bottom: 15px;
+ }
+ .f_text p{
+ 	color: #898989;
+ }
+  /**features end**/
+  /**footer start**/
+  .foot_content{
+  	background-color: #010101;;
+  }
+  .foot_padding{
+  	padding-top: 80px;
+  	padding-bottom: 80px;
+  }
+
+  .yellow{
+  	color: #fcdb00;
+  }
+  .foot_p{
+  	color: #898989 !important;
+  	font-size: 16px !important;
+  }
+  .c_submit {
+    width: 100%;
+    height: 38px;
+    background-color: #fcdb00;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #101010;
+    text-transform: uppercase;
+}
+.c_submit: hover{
+	color: white !important;
+}
+.c_form {
+    margin-top: 35px;
+    margin-bottom: 70px;
+}
+.f_1 address {
+    color: #fff;
+}
+.iconul ul li a{
+	color: #fcdb00;
+}
+.f_2 p a{
+	text-decoration: none;
+	color: #fff;
+}
+ 
+  /**footer end**/
+
